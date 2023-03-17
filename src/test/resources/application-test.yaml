@@ -1,0 +1,12 @@
+oauth:
+  server:
+    baseUrl: http://localhost:5000
+
+logging:
+  level:
+    org:
+      springframework:
+#        web: TRACE
+#        http: TRACE
+#        security: TRACE
+#        boot: TRACE

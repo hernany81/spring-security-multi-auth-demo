@@ -1,0 +1,19 @@
+<html>
+<title>
+    Welcome to the OAuth provider login page!
+</title>
+<body>
+Welcome to the OAuth provider login page!
+<br/>
+<form method="POST" action="/login">
+    <input type="hidden" name="state" value="{{request.query.state}}"/>
+    <input type="hidden" name="redirectUri" value="{{request.query.redirect_uri}}"/>
+    <input type="hidden" name="nonce" value="{{request.query.nonce}}"/>
+
+    <input type="text" name="username"/>
+    <input type="password" name="password"/>
+
+    <input type="submit"/>
+</form>
+</body>
+</html>

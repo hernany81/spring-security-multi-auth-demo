@@ -1,0 +1,8 @@
+oauth:
+  server:
+    baseUrl: http://localhost:${wiremock.server.port}
+
+wiremock:
+  reset-mappings-after-each-test: true
+  server:
+    files: 'file:src/test/resources/wiremock'
