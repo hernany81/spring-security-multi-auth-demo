@@ -20,7 +20,12 @@ The tests include [component tests](https://martinfowler.com/articles/microservi
 4. Open the test report HTML: `open build/reports/tests/test/index.html`
 
 ## Used frameworks and libraries
+- Gradle 7.6
 - Latest Spring Boot version at the time (3.0.4)
 - Latest Spring Framework version at the time (6.0.2)
 - Wiremock
 - Mockito
+
+## External references
+- https://tanzu.vmware.com/content/pivotal-engineering-journal/faking-oauth2-single-sign-on-in-spring-3-ways
+- https://openid.net/specs/openid-connect-core-1_0.html
